@@ -1,5 +1,1 @@
-<svg viewBox="0 0 900 50" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="50" fill="#ffffff"/>
-    <rect x="0" y="0" width="900" height="50" fill="#ffffff"/>
-    <text x="40" y="33" font-family="Courier New, ui-monospace, monospace" font-size="20" font-weight="bold" letter-spacing="2" fill="#000000">06 — STACK</text>
-    <line x1="40" y1="44" x2="860" y2="44" stroke="#dddddd" stroke-width="1"/>
-    </svg>
+<svg viewBox="0 0 900 70" xmlns="http://www.w3.org/2000/svg"><rect width="900" height="70" fill="#ffffff"/><text x="40" y="46" font-family="Courier New,ui-monospace,SFMono-Regular,Menlo,monospace" font-size="48" font-weight="normal" fill="#000000" >06</text><text x="125" y="40" font-family="Courier New,ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="bold" fill="#000000" letter-spacing="6">STACK</text><line x1="285" y1="35" x2="860" y2="35" stroke="#aeb4ba" stroke-width="1"/><text x="858" y="47" font-family="Courier New,ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" font-weight="bold" fill="#000000" text-anchor="end" letter-spacing="1">~/06-stack</text></svg>
