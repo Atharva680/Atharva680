@@ -21,7 +21,22 @@ for (const [label,x,y] of nodes) { const cx=x+90, cy=y+28; map += `${line(450,35
 save('ecosystem',900,700,map);
 save('s03',900,70,section('03','PROJECTS','~/03-projects'));
 const projects = [
-['NiveshJagrut-AI','Python','AI investment intelligence platform.'],['DebtCollectEval','HTML / Other','Debt collection evaluation workflow.'],['Browser-MCP-Agent','Python','Browser-based MCP agent experiments.'],['Aura-Ai-Job-Hunt','Python','AI-assisted job-search tooling.'],['atharva-portfolio','TypeScript','Personal portfolio website.'],['Python--185','Python','Python practice and learning repository.'],['Master-DSA-Sheet-500-','—','500-problem DSA track with revision passes.'],['mern-stack-technical-assignment','—','MERN technical assignment.'],['Face-Image-Deduplication-Tool','Python','Face detection and perceptual-hash duplicate removal.'],['Face-Recognition-Attendance-System-High-Accuracy-','Python','Offline face-recognition attendance system.'],['FaceGuard-UI','Python','Real-time face detection, capture, and event recording.'],['-Data-Engineering-Assignment-Stock-Data-Monthly-Resampling-and-Technical-Indicators','Python','Stock-data resampling and technical indicators.'],['F1-Championship-Simulator','Jupyter Notebook','Monte Carlo F1 standings simulator.'],['AI-Powered-Resume-Analyzer','Python','NLP resume skill extraction and analysis.'],['GitHub-repo-analysis','Jupyter Notebook','ML-powered GitHub repository analysis dashboard.'],['Atharva680','—','Profile repository and visual README.']];
+['Atharva680','JavaScript','Profile README covering technical expertise, active projects, and open-source contributions.'],
+['NiveshJagrut-AI','Python',"Sovereign Intelligence Mesh for India's Digital Public Infrastructure, aligning citizen demand with public investment."],
+['DebtCollectEval','HTML / Other','Evaluation harness for LLM voice agents in debt collection, including multilingual benchmarks.'],
+['Browser-MCP-Agent','Python','Model Context Protocol agent for autonomous web browsing, data extraction, and interaction.'],
+['Aura-Ai-Job-Hunt','Python','AI career assistant for resume tailoring, application tracking, and interview preparation.'],
+['atharva-portfolio','TypeScript','Professional portfolio focused on AI, data engineering, computer vision, and development journey.'],
+['Python--185','Python','185+ Python exercises and projects, spanning syntax through advanced data structures.'],
+['Master-DSA-Sheet-500-','—','Full DSA track with first solves and two revision passes for long-term retention.'],
+['mern-stack-technical-assignment','MERN','Full-stack application demonstrating REST API design and responsive frontend development.'],
+['Face-Image-Deduplication-Tool','Python','Face-image deduplication using face detection and perceptual hashing to organize folders.'],
+['Face-Recognition-Attendance-System-High-Accuracy-','Python','Offline attendance system built with Python, OpenCV, dlib, and face_recognition.'],
+['FaceGuard-UI','Python','Production-ready real-time face detection, smart capture, and event recording system.'],
+['-Data-Engineering-Assignment-Stock-Data-Monthly-Resampling-and-Technical-Indicators','Python','Stock-market data pipeline with monthly resampling and technical indicators for forecasting.'],
+['F1-Championship-Simulator','Jupyter Notebook','Monte Carlo simulator for full-season F1 standings with interactive dashboards.'],
+['AI-Powered-Resume-Analyzer','Python','Flask and spaCy resume analyzer for skill extraction, normalization, and SQLite storage.'],
+['GitHub-repo-analysis','Jupyter Notebook','ML-powered GitHub dashboard for topics, languages, reliability, and repository analysis.']];
 let list = `${frame('PROJECT ARCHIVE — ALL 16 PUBLIC REPOSITORIES','FIG. 02')}`;
 projects.forEach(([name,stack,summary],i) => { const y=130+i*62; list += `${text(40,y,String(i+1).padStart(2,'0')+' / '+name,13,'bold','FG')}${text(40,y+21,summary,11,'normal','MUTED')}${text(40,y+39,stack.toUpperCase(),10,'bold','FG','letter-spacing="1"')}${line(40,y+50,860,y+50,'LINE')}`; });
 save('projects',900,1140,list);
