@@ -1,0 +1,13 @@
+<svg viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="210" fill="#0d1117"/>
+  <text x="40" y="40" font-family="Courier New,ui-monospace,monospace" font-size="14" font-weight="bold" letter-spacing="1" fill="#ffffff">GITHUB // ATHARVA680</text>
+  <line x1="40" y1="54" x2="860" y2="54" stroke="#30363d"/>
+  <text x="40" y="88" font-family="Courier New,ui-monospace,monospace" font-size="12" font-weight="bold" fill="#ffffff">PRIMARY LANGUAGES</text>
+  <text x="40" y="115" font-family="Courier New,ui-monospace,monospace" font-size="12" fill="#8b949e">Python</text><rect x="125" y="103" width="390" height="12" fill="#ffffff"/>
+  <text x="40" y="145" font-family="Courier New,ui-monospace,monospace" font-size="12" fill="#8b949e">SQL / PySpark</text><rect x="125" y="133" width="275" height="12" fill="#8b949e"/>
+  <text x="40" y="175" font-family="Courier New,ui-monospace,monospace" font-size="12" fill="#8b949e">JavaScript</text><rect x="125" y="163" width="175" height="12" fill="#484f58"/>
+  <text x="590" y="88" font-family="Courier New,ui-monospace,monospace" font-size="12" font-weight="bold" fill="#ffffff">FOCUS</text>
+  <text x="590" y="115" font-family="Courier New,ui-monospace,monospace" font-size="12" fill="#8b949e">AI systems</text>
+  <text x="590" y="140" font-family="Courier New,ui-monospace,monospace" font-size="12" fill="#8b949e">Data engineering</text>
+  <text x="590" y="165" font-family="Courier New,ui-monospace,monospace" font-size="12" fill="#8b949e">Backend APIs</text>
+</svg>
